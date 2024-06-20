@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.input-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sip-inner{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 30px;
+    height: 600px;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 10%;
+    background: #F9F8F3;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+}
+.sip h2, .sip h3 {
+    font-family: "proxima-nova",sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+.sip h2 {
+    margin-top: 80px;
+}
+input.slider {
+    height: 6px;
+    width: 250px;
+}
+.sip-inner button{
+    margin: 50px 80px;
+}
+.barchart{
+    margin-top: 6%;
+    display: flex;
+    gap: 40px;
+}
+.totalamount{
+    line-height: 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 340px;
+    width: 38%;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 70px;
+}
+.totalamount h4{
+    color: #9A9A9A;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.black{
+    font-size: 20px;
+    margin-left: 2%;
+    color: #000;
+}
+.black1{
+    font-size: 20px;
+    margin-left: 15%;
+    color: #000;
+}
+.green{
+    font-size: 20px;
+    margin-left: 5%;
+    color: #00b852;
+}
+.sip h3{
+    font-family: "proxima-nova",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+    margin: 10px 0px 25px;
+}
+.sip-inner h3{
+    line-height: 26px;
+    font-size: 22px;
+    text-align: left;
+    color: #222;
+}
+.header{
+    width: 100%;
+    height: 66px;
+    background-color: #212426;
+    display: flex;
+    align-items: center;
+}
+.header-list ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-left: 50px;
+
+}
+.header-list ul li{
+    font-family: "proxima-nova",sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+.logo-section h3{
+    font-family: "proxima-nova",sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.account-sec{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.account-sec p{
+    font-family: "proxima-nova",sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.header img{
+    border-radius: 60%;
+}
+.sip h2{
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+}
