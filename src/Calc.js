@@ -230,9 +230,7 @@ function Calc() {
               />
             </div>
           </div>
-          <button onClick={() => alert(`Future Value: ${chartData[chartData.length - 1]?.futureValue || 0}`)}>
-            Future Value
-          </button>
+          
            <div className='barchart'>
             <div className='barchart-inner'>
           <ResponsiveContainer width={600} height={400} >
